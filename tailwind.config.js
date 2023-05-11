@@ -6,6 +6,9 @@ export default {
       screens: {
         sm: "480px",
       },
+      spacing: {
+        big: "45rem",
+      },
     },
   },
   plugins: [],
