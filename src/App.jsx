@@ -253,6 +253,37 @@ function App() {
           </div>
         </div>
       </div>
+      <div>
+        <div className=" container mx-auto">
+          <div className=" flex flex-col gap-3 items-center">
+            <h1 className=" text-indigo-600 font-bold">Contact</h1>
+            <h1 className=" text-3xl">Have a question?</h1>
+            <p className=" text-gray-400 w-1/2 text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+              ab reiciendis odio minima. Molestias, fuga voluptas.
+            </p>
+          </div>
+          <form className=" flex flex-col gap-5 items-center mt-5 p-8">
+            <input
+              type="text"
+              placeholder=" John Doe"
+              className=" p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"
+            />
+            <input
+              type="email"
+              placeholder="johndoe@gmail.com"
+              className=" p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"
+            />
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder=" I would like...."
+              className=" p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"
+            ></textarea>
+            <button className=" w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 cursor-pointer rounded-md">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
