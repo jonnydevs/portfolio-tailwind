@@ -3,6 +3,7 @@ import man from "./assets/man.png";
 import dots from "./assets/dots.png";
 import logo from "./assets/logo.png";
 import portrait from "./assets/portrait.png";
+import icon from "./assets/icon.png";
 import { FaBars } from "react-icons/fa";
 // import { useEffect } from "react";
 // import { init } from "ityped";
@@ -120,6 +121,93 @@ function App() {
             <h2 className=" text-gray-400 font-medium">Javascript</h2>
             <div className=" w-full bg-gray-200 h-1.5 rounded-md">
               <div className=" w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className=" container mx-auto">
+          <div className=" flex flex-col gap-3 items-center">
+            <h1 className=" text-indigo-600 font-bold">Services</h1>
+            <h1 className=" text-3xl">What doI offer?</h1>
+            <p className=" text-gray-400 w-1/2 text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+              ab animi reprehenderit ipsum magnam reiciendis odio minima.
+              Molestias, fuga voluptas.
+            </p>
+          </div>
+          <div className=" p-5 flex flex-wrap"> my-3 md:my-10
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
+            </div>
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
+            </div>
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
+            </div>
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
+            </div>
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
+            </div>
+            <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
+              <img src={icon} alt="" className=" w-10" />
+              <h1 className=" font-medium text-lg">UX / UI Design</h1>
+              <p className=" text-gray-400">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                ad minima. Alias sint cumque quibusdam quis perferendis ea
+                dolores sequi?
+              </p>
+              <a href="#" className=" text-indigo-600 font-semibold text-sm">
+                Read more
+              </a>
             </div>
           </div>
         </div>
