@@ -4,19 +4,14 @@ import dots from "./assets/dots.png";
 import logo from "./assets/logo.png";
 import portrait from "./assets/portrait.png";
 import icon from "./assets/icon.png";
-import item from "./assets/item.png";<img src={item} alt="" />
+import item from "./assets/item.png";
+import facebook from "./assets/facebook.png";
+import twitter from "./assets/twitter.png";
+import linkedin from "./assets/linkedin.png";
+import instagram from "./assets/instagram.png";
 import { FaBars } from "react-icons/fa";
-// import { useEffect } from "react";
-// import { init } from "ityped";
 
 function App() {
-  // useEffect(() => {
-  //   const myElement = document.querySelector("#text");
-  //   init(myElement, {
-  //     showCursor: false,
-  //     strings: ["Developer", "Designer"],
-  //   });
-  // },[]);
   return (
     <div className=" font-sans">
       <div className=" h-96 lg:h-screen bg-gradient-to-t from-indigo-200 overflow-hidden relative">
@@ -33,16 +28,19 @@ function App() {
                 <a href="#">Home</a>
               </li>
               <li className=" hover:text-gray-500">
-                <a href="#">About me</a>
+                <a href="#about">About me</a>
               </li>
               <li className=" hover:text-gray-500">
-                <a href="#">services</a>
+                <a href="#services">services</a>
               </li>
               <li className=" hover:text-gray-500">
-                <a href="#">works</a>
+                <a href="#works">works</a>
+              </li>
+              <li className=" hover:text-gray-500">
+                <a href="#contact">contact</a>
               </li>
             </ul>
-            <img src={moon} alt="" className="hidden md:block" />
+            <img src={moon} alt="" className="hidden md:block w-10 cursor-pointer" />
             <div>
               <FaBars className=" cursor-pointer md:hidden z-20" />
             </div>
@@ -51,13 +49,16 @@ function App() {
                 <a href="#">Home</a>
               </li>
               <li className=" ">
-                <a href="#">About me</a>
+                <a href="#about">About me</a>
               </li>
               <li className=" ">
-                <a href="#">services</a>
+                <a href="#services">services</a>
               </li>
               <li className=" ">
-                <a href="#">works</a>
+                <a href="#works">works</a>
+              </li>
+              <li className=" ">
+                <a href="#contact">contact</a>
               </li>
             </ul>
           </div>
@@ -90,7 +91,7 @@ function App() {
           Hire me
         </a>
       </div>
-      <div className=" px-10">
+      <div className=" px-10" id="about">
         <div className=" container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
           <div className=" relative">
             <img
@@ -126,20 +127,16 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="services">
         <div className=" container mx-auto">
           <div className=" flex flex-col gap-3 items-center">
             <h1 className=" text-indigo-600 font-bold">Services</h1>
-            <h1 className=" text-3xl">What doI offer?</h1>
+            <h1 className=" text-3xl">What do I offer?</h1>
             <p className=" text-gray-400 w-1/2 text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              ab animi reprehenderit ipsum magnam reiciendis odio minima.
-              Molestias, fuga voluptas.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </p>
           </div>
           <div className=" p-5 flex flex-wrap">
-            {" "}
-            my-3 md:my-10
             <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
               <img src={icon} alt="" className=" w-10" />
               <h1 className=" font-medium text-lg">UX / UI Design</h1>
@@ -215,14 +212,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" py-40 mx-auto" id="works">
         <div className=" container mx-auto">
           <div className=" flex flex-col gap-3 items-center">
             <h1 className=" text-indigo-600 font-bold">Portfolio</h1>
             <h1 className=" text-3xl">Works I have done</h1>
             <p className=" text-gray-400 w-1/2 text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              ab reiciendis odio minima. Molestias, fuga voluptas.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </p>
           </div>
           <div className=" p-5 flex flex-wrap">
@@ -253,14 +249,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="contact">
         <div className=" container mx-auto">
           <div className=" flex flex-col gap-3 items-center">
             <h1 className=" text-indigo-600 font-bold">Contact</h1>
             <h1 className=" text-3xl">Have a question?</h1>
             <p className=" text-gray-400 w-1/2 text-center">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              ab reiciendis odio minima. Molestias, fuga voluptas.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </p>
           </div>
           <form className=" flex flex-col gap-5 items-center mt-5 p-8">
@@ -280,8 +275,27 @@ function App() {
               placeholder=" I would like...."
               className=" p-2 w-full md:w-1/2 ring-1 ring-indigo-300 rounded-sm"
             ></textarea>
-            <button className=" w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 cursor-pointer rounded-md">Submit</button>
+            <button className=" w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 cursor-pointer rounded-md">
+              Submit
+            </button>
           </form>
+        </div>
+      </div>
+      <div className=" w-full bg-gray-800">
+        <div className=" container mx-auto py-5 flex justify-between items-center">
+          <div className=" flex items-center gap-2">
+            <img src={logo} alt="" className=" w-8" />
+            <span className=" text-2xl font-bold text-white">Jonnydevs</span>
+          </div>
+          <span className=" hidden md:block font-medium text-white">
+            &copy; 2023 Developed by Jonnydevs
+          </span>
+          <div className=" flex gap-2">
+            <img className=" w-4 cursor-pointer" src={facebook} alt="" />
+            <img className=" w-4 cursor-pointer" src={instagram} alt="" />
+            <img className=" w-4 cursor-pointer" src={twitter} alt="" />
+            <img className=" w-4 cursor-pointer" src={linkedin} alt="" />
+          </div>
         </div>
       </div>
     </div>
