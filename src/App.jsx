@@ -4,6 +4,7 @@ import dots from "./assets/dots.png";
 import logo from "./assets/logo.png";
 import portrait from "./assets/portrait.png";
 import icon from "./assets/icon.png";
+import item from "./assets/item.png";<img src={item} alt="" />
 import { FaBars } from "react-icons/fa";
 // import { useEffect } from "react";
 // import { init } from "ityped";
@@ -136,7 +137,9 @@ function App() {
               Molestias, fuga voluptas.
             </p>
           </div>
-          <div className=" p-5 flex flex-wrap"> my-3 md:my-10
+          <div className=" p-5 flex flex-wrap">
+            {" "}
+            my-3 md:my-10
             <div className=" w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-3 my-3 md:my-10">
               <img src={icon} alt="" className=" w-10" />
               <h1 className=" font-medium text-lg">UX / UI Design</h1>
@@ -208,6 +211,44 @@ function App() {
               <a href="#" className=" text-indigo-600 font-semibold text-sm">
                 Read more
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className=" container mx-auto">
+          <div className=" flex flex-col gap-3 items-center">
+            <h1 className=" text-indigo-600 font-bold">Portfolio</h1>
+            <h1 className=" text-3xl">Works I have done</h1>
+            <p className=" text-gray-400 w-1/2 text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+              ab reiciendis odio minima. Molestias, fuga voluptas.
+            </p>
+          </div>
+          <div className=" p-5 flex flex-wrap">
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
+            </div>
+            <div className=" w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg p-5 my-3 md:my-10 m-1">
+              <img src={item} alt="" />
             </div>
           </div>
         </div>
